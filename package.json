@@ -1,6 +1,6 @@
 {
   "name": "herp-typings",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared typings between backend and frontend",
   "main": "index.ts",
   "scripts": {
