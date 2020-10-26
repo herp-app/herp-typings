@@ -1,0 +1,23 @@
+{
+  "name": "herp-typings",
+  "version": "0.1.0",
+  "description": "Shared typings between backend and frontend",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herp-app/herp-typings.git"
+  },
+  "keywords": [
+    "herp",
+    "typings"
+  ],
+  "author": "Johannes Hoffmann",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/herp-app/herp-typings/issues"
+  },
+  "homepage": "https://github.com/herp-app/herp-typings#readme"
+}
