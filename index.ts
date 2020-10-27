@@ -11,3 +11,4 @@ export * from "./IService";
 export * from "./ITranslation";
 export * from "./IView";
 export * from "./IWorkflows";
+export * from "./Utils";
