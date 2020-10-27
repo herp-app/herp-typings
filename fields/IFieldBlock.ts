@@ -15,8 +15,8 @@ export interface IFieldBlockInputWidgetOptions extends IFieldInputWidgetOptions 
 
 export interface IFieldBlockConfiguration extends IFieldConfiguration {
     fieldType: "block";
-    defaultValue: string;
-    options: IFieldBlockOptions;
+    defaultValue?: string;
+    options?: IFieldBlockOptions;
     viewWidget?: {
         name: string;
         options?: IFieldBlockViewWidgetOptions;
@@ -31,8 +31,8 @@ export interface IFieldBlockConfiguration extends IFieldConfiguration {
 export default interface IFieldBlock extends IField {
     fieldType: "block";
     storageType: "object";
-    defaultValue: string;
-    options: IFieldBlockOptions;
+    defaultValue?: string;
+    options?: IFieldBlockOptions;
     viewWidget?: {
         name: string;
         options?: IFieldBlockViewWidgetOptions;
