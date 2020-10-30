@@ -68,4 +68,3 @@ export declare type FieldsCollectionType = {
 export declare type FieldsConfigurationCollectionType = {
     [key: string]: IFieldsConfiguration;
 };
-export default IFields;

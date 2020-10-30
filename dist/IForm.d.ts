@@ -1,5 +1,5 @@
 import ILayout from "./ILayout";
-import IEntity, { IEntityReference } from "./IEntity";
+import { IEntity, IEntityReference } from "./IEntity";
 /**
  * Interface for Forms
  */

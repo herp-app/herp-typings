@@ -1,4 +1,4 @@
-import IFields from "./IFields";
+import { IFields } from "./IFields";
 import { IEntityReference } from "./IEntity";
 
 /**

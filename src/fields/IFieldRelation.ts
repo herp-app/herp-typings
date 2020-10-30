@@ -1,4 +1,4 @@
-import IFields, { IField, IFieldOptions, IFieldViewWidgetOptions, IFieldInputWidgetOptions, IFieldConfiguration } from "../IFields";
+import { IField, IFieldOptions, IFieldViewWidgetOptions, IFieldInputWidgetOptions, IFieldConfiguration } from "../IFields";
 
 export interface IFieldRelationOptions extends IFieldOptions {
     labelField: string;

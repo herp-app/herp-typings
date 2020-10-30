@@ -16,7 +16,7 @@ export interface IEntityConfiguration extends IEntityBase {
 /**
  * Interface for a Entity
  */
-export default interface IEntity extends IEntityBase {
+export interface IEntity extends IEntityBase {
     fields: FieldsCollectionType;
 }
 /**

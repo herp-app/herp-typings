@@ -1,4 +1,4 @@
-import IFields, { IField, IFieldOptions, IFieldViewWidgetOptions, IFieldInputWidgetOptions, IFieldConfiguration, FieldsConfigurationCollectionType, FieldsCollectionType } from "../IFields";
+import { IField, IFieldOptions, IFieldViewWidgetOptions, IFieldInputWidgetOptions, IFieldConfiguration, FieldsConfigurationCollectionType, FieldsCollectionType } from "../IFields";
 
 export interface IFieldBlockOptions extends IFieldOptions {
     disableFrame?: boolean;

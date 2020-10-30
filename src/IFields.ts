@@ -101,6 +101,3 @@ export type FieldsCollectionType = {
 export type FieldsConfigurationCollectionType = {
     [key: string]: IFieldsConfiguration;
 };
-
-
-export default IFields;

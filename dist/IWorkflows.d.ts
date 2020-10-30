@@ -1,4 +1,4 @@
-import IFields, { IField, FieldsCollectionType, IFieldsConfiguration, IFieldConfiguration } from "./IFields";
+import { IFields, IField, FieldsCollectionType, IFieldsConfiguration, IFieldConfiguration } from "./IFields";
 export declare type WorkflowNodeTypes = "trigger" | "input" | "action" | "service" | "utility" | "output";
 interface IFieldAny extends IField {
     storageType: "any";

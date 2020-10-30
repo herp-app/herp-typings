@@ -1,4 +1,4 @@
-import IFields, { IFieldsStorageType, IFieldsFieldMultiple, IField, FieldsCollectionType, IFieldsConfiguration, IFieldConfiguration } from "./IFields";
+import  { IFields,IFieldsStorageType, IFieldsFieldMultiple, IField, FieldsCollectionType, IFieldsConfiguration, IFieldConfiguration } from "./IFields";
 
 export type WorkflowNodeTypes = "trigger" | "input" | "action" | "service" | "utility" | "output";
 

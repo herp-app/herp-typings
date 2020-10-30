@@ -1,4 +1,4 @@
-import IFields, { FieldsCollectionType, IFieldsConfiguration, FieldsConfigurationCollectionType } from "./IFields";
+import  {IFields, FieldsCollectionType, IFieldsConfiguration, FieldsConfigurationCollectionType } from "./IFields";
 
 interface IEntityBase {
     type: "entity";
@@ -20,7 +20,7 @@ export interface IEntityConfiguration extends IEntityBase {
 /**
  * Interface for a Entity
  */
-export default interface IEntity extends IEntityBase {
+export interface IEntity extends IEntityBase {
     fields: FieldsCollectionType;
 }
 
