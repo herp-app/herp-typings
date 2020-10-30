@@ -12,6 +12,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./IBundle"), exports);
 __exportStar(require("./IConfiguration"), exports);
+__exportStar(require("./IEntity"), exports);
 __exportStar(require("./IFields"), exports);
 __exportStar(require("./IForm"), exports);
 __exportStar(require("./ILayout"), exports);

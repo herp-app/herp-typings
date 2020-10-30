@@ -1,5 +1,6 @@
 export * from './IBundle';
 export * from './IConfiguration';
+export * from './IEntity';
 export * from './IFields';
 export * from './IForm';
 export * from './ILayout';
