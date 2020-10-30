@@ -1,3 +1,6 @@
+
+declare module 'herp-typings';
+
 /// <reference path="./IBundle.ts" />
 /// <reference path="./IConfiguration.ts" />
 /// <reference path="./IEntity.ts" />

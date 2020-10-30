@@ -1,14 +1,1 @@
-/// <reference path="IBundle.d.ts" />
-/// <reference path="IConfiguration.d.ts" />
-/// <reference path="IEntity.d.ts" />
-/// <reference path="IFields.d.ts" />
-/// <reference path="IForm.d.ts" />
-/// <reference path="ILayout.d.ts" />
-/// <reference path="IMenu.d.ts" />
-/// <reference path="IPermissions.d.ts" />
-/// <reference path="IQuery.d.ts" />
-/// <reference path="IService.d.ts" />
-/// <reference path="ITranslation.d.ts" />
-/// <reference path="IView.d.ts" />
-/// <reference path="IWorkflows.d.ts" />
-/// <reference path="Utils.d.ts" />
+declare module 'herp-typings';
