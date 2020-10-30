@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-      "outDir": "dist",
+      "outDir": "./",
       "target": "es6",
       "module": "commonjs",
       "moduleResolution": "node",
@@ -15,5 +15,9 @@
     ],
     "exclude": [
       "node_modules"
-    ]
+    ],
+    "typescript": {
+        "definition": "dist/index.d.ts"
+      },
+      "typings": "dist/index.d.ts",
   }
