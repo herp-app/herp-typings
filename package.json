@@ -4,6 +4,7 @@
   "description": "Shared typings between backend and frontend",
   "main": "index.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/herp-app/herp-typings/issues"
   },
-  "homepage": "https://github.com/herp-app/herp-typings#readme"
+  "homepage": "https://github.com/herp-app/herp-typings#readme",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
 }

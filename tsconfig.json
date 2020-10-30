@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "skipLibCheck": true,
+      // "esModuleInterop": true, // this setting breaks mongoose to work properly but fix issue with apollo graphql stuff.
+      "sourceMap": true,
+      "typeRoots": ["node_modules/@types"]
+    },
+    "include": [
+      "src/**/**.ts",
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
