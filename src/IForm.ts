@@ -1,10 +1,10 @@
-import ILayout from "./ILayout";
+import {ILayout} from "./ILayout";
 import {IEntity, IEntityReference } from "./IEntity";
 
 /**
  * Interface for Forms
  */
-export default interface IForm {
+export interface IForm {
     type: "form";
     name: string;
     bundle: string;

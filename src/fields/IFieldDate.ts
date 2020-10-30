@@ -26,7 +26,7 @@ export interface IFieldDateConfiguration extends IFieldConfiguration {
     };
 }
 
-export default interface IFieldDate extends IField {
+export interface IFieldDate extends IField {
     fieldType: "date";
     storageType: "date";
     defaultValue: string;

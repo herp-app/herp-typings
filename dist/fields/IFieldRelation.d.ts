@@ -22,7 +22,7 @@ export interface IFieldRelationConfiguration extends IFieldConfiguration {
     };
     reference: string;
 }
-export default interface IFieldRelation extends IField {
+export interface IFieldRelation extends IField {
     fieldType: "relation";
     storageType: "reference";
     defaultValue?: string;

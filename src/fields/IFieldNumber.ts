@@ -27,7 +27,7 @@ export interface IFieldNumberConfiguration extends IFieldConfiguration {
     };
 }
 
-export default interface IFieldNumber extends IField {
+export interface IFieldNumber extends IField {
     fieldType: "number";
     storageType: "number";
     defaultValue?: number;

@@ -1,7 +1,7 @@
 /**
  * Interface for Layouts
  */
-export default interface ILayout {
+export interface ILayout {
     rows: Array<ILayoutRow>;
     mapping: Array<ILayoutMapping>;
 }

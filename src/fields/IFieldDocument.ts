@@ -28,7 +28,7 @@ export interface IFieldDocumentConfiguration extends IFieldConfiguration {
     fields: FieldsConfigurationCollectionType;
 }
 
-export default interface IFieldDocument extends IField {
+export interface IFieldDocument extends IField {
     fieldType: "document";
     storageType: "object";
     defaultValue?: string;

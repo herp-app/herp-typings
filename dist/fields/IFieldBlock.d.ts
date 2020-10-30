@@ -23,7 +23,7 @@ export interface IFieldBlockConfiguration extends IFieldConfiguration {
     };
     fields: FieldsConfigurationCollectionType;
 }
-export default interface IFieldBlock extends IField {
+export interface IFieldBlock extends IField {
     fieldType: "block";
     storageType: "object";
     defaultValue?: string;

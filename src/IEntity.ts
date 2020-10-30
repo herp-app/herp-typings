@@ -1,4 +1,4 @@
-import  {IFields, FieldsCollectionType, IFieldsConfiguration, FieldsConfigurationCollectionType } from "./IFields";
+import  { FieldsCollectionType, FieldsConfigurationCollectionType } from "./IFields";
 
 interface IEntityBase {
     type: "entity";

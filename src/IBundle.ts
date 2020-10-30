@@ -1,7 +1,7 @@
 /**
  * Interface for Bundles
  */
-export default interface IBundle {
+export interface IBundle {
     type: "bundle";
     name: string;
     label: string;

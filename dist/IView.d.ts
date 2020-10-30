@@ -1,9 +1,9 @@
-import IQueryConfiguration from './IQuery';
+import { IQueryConfiguration } from './IQuery';
 import { IEntityReference } from './IEntity';
 /**
  * Interface for Views
  */
-export default interface IView {
+export interface IView {
     type: 'view';
     name: string;
     bundle: string;

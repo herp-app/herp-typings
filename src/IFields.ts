@@ -1,14 +1,14 @@
-import IFieldBlock, { IFieldBlockConfiguration } from "./fields/IFieldBlock";
-import IFieldBoolean, { IFieldBooleanConfiguration } from "./fields/IFieldBoolean";
+import { IFieldBlock, IFieldBlockConfiguration } from "./fields/IFieldBlock";
+import { IFieldBoolean, IFieldBooleanConfiguration } from "./fields/IFieldBoolean";
 import { IFieldDateOptions, IFieldDateConfiguration } from "./fields/IFieldDate";
-import IFieldDateTime, { IFieldDateTimeConfiguration } from "./fields/IFieldDateTime";
-import IFieldDocument, { IFieldDocumentConfiguration } from "./fields/IFieldDocument";
-import IFieldEnumerate, { IFieldEnumerateConfiguration } from "./fields/IFieldEnumerate";
-import IFieldNumber, { IFieldNumberConfiguration } from "./fields/IFieldNumber";
-import IFieldPassword, { IFieldPasswordConfiguration } from "./fields/IFieldPassword";
-import IFieldRelation, { IFieldRelationConfiguration } from "./fields/IFieldRelation";
-import IFieldSerial, { IFieldSerialConfiguration } from "./fields/IFieldSerial";
-import IFieldString, { IFieldStringConfiguration } from "./fields/IFieldString";
+import { IFieldDateTime, IFieldDateTimeConfiguration } from "./fields/IFieldDateTime";
+import { IFieldDocument, IFieldDocumentConfiguration } from "./fields/IFieldDocument";
+import { IFieldEnumerate, IFieldEnumerateConfiguration } from "./fields/IFieldEnumerate";
+import { IFieldNumber, IFieldNumberConfiguration } from "./fields/IFieldNumber";
+import { IFieldPassword, IFieldPasswordConfiguration } from "./fields/IFieldPassword";
+import { IFieldRelation, IFieldRelationConfiguration } from "./fields/IFieldRelation";
+import { IFieldSerial, IFieldSerialConfiguration } from "./fields/IFieldSerial";
+import { IFieldString, IFieldStringConfiguration } from "./fields/IFieldString";
 
 export type IFieldsStorageType = "string" | "number" | "boolean" | "date" | "reference" | "object" | "any";
 export type IFieldsFieldType = "string" | "number" | "boolean" | "date" | "dateTime" | "password" | "enumerate" | "document" | "block" | "relation" | "serial" | "any";

@@ -7,7 +7,7 @@ export interface IFieldEnumerateConfiguration extends IFieldConfiguration {
     };
 }
 
-export default interface IFieldEnumerate extends IField {
+export interface IFieldEnumerate extends IField {
     fieldType: "enumerate";
     storageType: "string";
     enumeration: {

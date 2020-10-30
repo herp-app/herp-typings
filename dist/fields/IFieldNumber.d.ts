@@ -22,7 +22,7 @@ export interface IFieldNumberConfiguration extends IFieldConfiguration {
         options?: IFieldNumberInputWidgetOptions;
     };
 }
-export default interface IFieldNumber extends IField {
+export interface IFieldNumber extends IField {
     fieldType: "number";
     storageType: "number";
     defaultValue?: number;

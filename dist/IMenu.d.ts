@@ -40,6 +40,6 @@ export interface IMenuItem extends IMenuItemConfiguration {
 /**
  * Interface for Menus - menus are system configuration only
  */
-export default interface IMenu extends IMenuConfiguration {
+export interface IMenu extends IMenuConfiguration {
     items: Array<IMenuItem>;
 }

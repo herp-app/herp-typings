@@ -5,7 +5,7 @@ export interface IFieldBooleanConfiguration extends IFieldConfiguration {
     defaultValue?: boolean;
 }
 
-export default interface IFieldBoolean extends IField {
+export interface IFieldBoolean extends IField {
     fieldType: "boolean";
     storageType: "boolean";
     defaultValue?: boolean;

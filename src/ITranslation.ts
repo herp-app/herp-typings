@@ -1,7 +1,7 @@
 /**
  * Interface for Translations
  */
-export default interface ITranslations {
+export interface ITranslations {
         [key: string]: string;
 }
 

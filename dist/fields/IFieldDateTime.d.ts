@@ -21,7 +21,7 @@ export interface IFieldDateTimeConfiguration extends IFieldConfiguration {
         options?: IFieldDateTimeInputWidgetOptions;
     };
 }
-export default interface IFieldDateTime extends IField {
+export interface IFieldDateTime extends IField {
     fieldType: "dateTime";
     storageType: "date";
     defaultValue?: string;

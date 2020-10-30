@@ -8,7 +8,7 @@ export interface IFieldSerialViewWidgetOptions extends IFieldViewWidgetOptions {
 export interface IFieldSerialInputWidgetOptions extends IFieldInputWidgetOptions {
     options?: IFieldSerialOptions;
 }
-export default interface IFieldSerial extends IField {
+export interface IFieldSerial extends IField {
     fieldType: "serial";
     storageType: "string";
     options: IFieldSerialOptions;
