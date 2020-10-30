@@ -9,6 +9,17 @@ import { IFieldPassword, IFieldPasswordConfiguration } from "./fields/IFieldPass
 import { IFieldRelation, IFieldRelationConfiguration } from "./fields/IFieldRelation";
 import { IFieldSerial, IFieldSerialConfiguration } from "./fields/IFieldSerial";
 import { IFieldString, IFieldStringConfiguration } from "./fields/IFieldString";
+export * from "./fields/IFieldBlock";
+export * from "./fields/IFieldBoolean";
+export * from "./fields/IFieldDate";
+export * from "./fields/IFieldDateTime";
+export * from "./fields/IFieldDocument";
+export * from "./fields/IFieldEnumerate";
+export * from "./fields/IFieldNumber";
+export * from "./fields/IFieldPassword";
+export * from "./fields/IFieldRelation";
+export * from "./fields/IFieldSerial";
+export * from "./fields/IFieldString";
 export declare type IFieldsStorageType = "string" | "number" | "boolean" | "date" | "reference" | "object" | "any";
 export declare type IFieldsFieldType = "string" | "number" | "boolean" | "date" | "dateTime" | "password" | "enumerate" | "document" | "block" | "relation" | "serial" | "any";
 export declare type IFieldsFieldMultiple = {
