@@ -7,6 +7,7 @@
       "skipLibCheck": true,
       // "esModuleInterop": true, // this setting breaks mongoose to work properly but fix issue with apollo graphql stuff.
       "sourceMap": true,
+      "declaration": true,
       "typeRoots": ["node_modules/@types"]
     },
     "include": [
